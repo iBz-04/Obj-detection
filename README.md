@@ -42,7 +42,7 @@ Install dependencies
 ```bash
   pip install tensorflow 
   pip install numpy 
-  pip install opencv
+  pip install opencv-python
   pip install pillow 
   pip install matplotlib
 ```
