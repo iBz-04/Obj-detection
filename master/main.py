@@ -5,8 +5,10 @@ from PIL import Image
 from matplotlib import pyplot as plt
 from random import randint
 
+# Load the Pre-trained Model
 model = tf.saved_model.load("../models/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8/saved_model")
 
+# Preprocess Image
 image = Image.open("obj1.jpg")
 image_np = np.array(image)
 input_tensor = tf.convert_to_tensor(np.expand_dims(image_np, 0), dtype=tf.uint8)
