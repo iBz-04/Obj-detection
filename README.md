@@ -54,3 +54,5 @@ Install dependencies
 ## Example Output
 When you run the script on an image, the output will look similar to this:
 
+<img src="https://res.cloudinary.com/diekemzs9/image/upload/v1729453505/Screenshot_2024-10-20_220015_fsm189.png" alt="Original Image" width="800"/>
+
