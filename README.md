@@ -1,7 +1,7 @@
 
 # Object Detection with TensorFlow SSD MobileNet V2
 
-This project demonstrates object detection using TensorFlow's SSD MobileNet V2 model, a pre-trained model from the TensorFlow Object Detection API. The model is capable of detecting common objects in images with bounding boxes, class labels, and confidence scores(ranges from 0[lowest] to 1[highest]).
+This project demonstrates object detection using TensorFlow's SSD MobileNet V2 model, a pre-trained model from the TensorFlow Object Detection API. The model is capable of detecting common objects in images with bounding boxes, class labels, and confidence scores(ranges from 0 = [lowest] to 1 = [highest] the closer the score is to 1 the better).
 
 
 ## Installation
